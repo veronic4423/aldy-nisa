@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Undangan Pernikahan</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background: #fffaf0;
+      color: #333;
+      text-align: center;
+    }
+    header {
+      background: linear-gradient(135deg, #fdf6e3, #fff5d7);
+      padding: 4rem 2rem;
+      border-bottom: 3px solid #d4af37;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+      color: #bfa76f;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #555;
+    }
+    section {
+      padding: 2rem;
+    }
+    .date {
+      font-size: 1.6rem;
+      color: #bfa76f;
+      font-weight: bold;
+    }
+    .location {
+      margin-top: 1rem;
+      font-size: 1.2rem;
+    }
+    .rsvp, .maps {
+      margin-top: 2rem;
+    }
+    .rsvp a, .maps a {
+      background: #d4af37;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      margin: 0.5rem;
+      display: inline-block;
+    }
+    .gallery {
+      margin-top: 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      padding: 0 1rem;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      border: 2px solid #e0c08f;
+    }
+    footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #777;
+      border-top: 1px solid #eee;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Musik Otomatis -->
+  <audio autoplay loop hidden>
+    <source src="https://www.bensound.com/bensound-music/bensound-romantic.mp3" type="audio/mpeg">
+    Browser Anda tidak mendukung pemutar musik.
+  </audio>
+
+  <header>
+    <h1>Nisa & Aldy</h1>
+    <p>Dengan penuh cinta, kami mengundang Anda ke hari istimewa kami</p>
+  </header>
+
+  <section>
+    <div class="date">Sabtu, 21 Juni 2025</div>
+    <div class="location">Gedung Serbaguna, Jakarta Selatan</div>
+
+    <div class="maps">
+      <a href="https://goo.gl/maps/abcd1234" target="_blank">Lihat Lokasi di Google Maps</a>
+    </div>
+
+    <div class="rsvp">
+      <a href="https://forms.gle/undanganRSVP" target="_blank">Konfirmasi Kehadiran</a>
+    </div>
+  </section>
+
+  <section>
+    <h2 style="color:#bfa76f;">Galeri Kenangan</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/400x300?text=Foto+1" alt="Foto 1" />
+      <img src="https://via.placeholder.com/400x300?text=Foto+2" alt="Foto 2" />
+      <img src="https://via.placeholder.com/400x300?text=Foto+3" alt="Foto 3" />
+      <img src="https://via.placeholder.com/400x300?text=Foto+4" alt="Foto 4" />
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Nisa & Aldy. Terima kasih atas doanya 💛
+  </footer>
+</body>
+</html>
